@@ -32,6 +32,16 @@ a{
     font-family: arial;
 }
 
+#one{
+    font-size: 30px;
+    line-height: 25px;
+    text-transform: capitalize;
+}
+
+#three{
+    font-size: 10px ;
+}
+
 /*#h1{
     font-weight: normal;
 }
