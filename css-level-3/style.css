@@ -1,0 +1,69 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#navbar {
+    height: 60px;
+    color: white;
+    background-color: #0f1111;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    margin-left: 200px;
+}
+
+#logo {
+    margin-left: 2px;
+    color: #f08804;
+    font-size: 25px;
+}
+
+input {
+    margin-left: 200px;
+}
+
+button {
+    background-color: rgb(129, 50, 50);
+    color: white;
+}
+
+.contentBox {
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    display: inline-block;
+}
+
+#content {
+    height: 525px;
+}
+
+footer {
+    background-color: #0f1111;
+    color: white;
+    text-align: center;
+}
+
+/*div{
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    padding: 25px;
+    display: inline-block;
+}
+
+
+#box1{
+    background-color: rgba(0,0,255,0.5);
+}
+
+#box2{
+    background-color: rgba(0,0,255,0.75);
+}
+
+#box3{
+    background-color: rgba(0,0,255,1);
+}*/

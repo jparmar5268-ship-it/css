@@ -1,0 +1,46 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid Practice Task</title>
+
+    <style>
+        .img {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+            width: 600px;
+            margin: auto;
+            justify-content: center;
+        }
+
+        .img img {
+            width: 300px;
+            height: 280px;
+            object-fit: cover;
+            /* border: 2px solid black;*/
+            border-radius: 25px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="img">
+
+        <img src="img1.jpg">
+        <img src="img2.jpg">
+        <img src="img3.jpg">
+        <img src="img4.jpg">
+        <img src="img5.webp">
+        <img src="img6.jpg">
+        <img src="img7.jpg">
+        <img src="img8.jpg">
+        <img src="img9.jpg">
+
+    </div>
+
+</body>
+
+</html>

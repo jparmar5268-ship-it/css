@@ -1,0 +1,57 @@
+/*#box1 {
+    height: 100px;
+    width:200px;
+    background-color: green;
+    font-size: 10px;
+}
+
+#box2 {
+    height: 50px;
+    width: 30%;
+    background-color: yellow;
+    margin-left: 10%;
+    font-size: 2em;  /*2 times of parent's font size */
+/* width: 5em;
+} */
+
+div {
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    border: 2px solid black;
+    display: inline-block;
+}
+
+/* Background Image*/
+
+#box1 {
+    background-image: url("cat_photo.jpg");
+    background-size: cover;
+}
+
+
+/*#box1{
+    position: static;  /*for static position we can not define top,bottom,left,right and Z-index bcz z-index properties have no effected
+    top: 50px;
+    bottom: 50px;
+}*/
+
+/*#box2{
+    position: relative;
+    top: 20px;
+    left:10px;
+    z-index: 1;
+}
+
+#box3{
+    position: absolute;
+    /*position: sticky;*/
+/*top: 500px;
+    left: 20px;
+}
+
+#box4{
+    position: fixed;
+    top: 50px;
+    z-index: -5;
+}*/
